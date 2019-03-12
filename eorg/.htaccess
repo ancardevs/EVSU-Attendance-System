@@ -1,0 +1,44 @@
+#ErrorDocument 404 http://localhost:8012/Projects/Site/page-error.html
+
+ErrorDocument 404 /page-error.html
+
+RewriteEngine On
+
+#RewriteBase /
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^newsfeed?$ index.php
+
+RewriteRule ^security-checkpoint?$ login.php
+
+RewriteRule ^dashboard?$ dashboard.php
+
+RewriteRule ^courses?$ course.php
+
+RewriteRule ^events?$ event.php
+
+RewriteRule ^scholarships?$ scholarship.php
+
+RewriteRule ^mails?$ mail.php
+
+RewriteRule ^sms?$ sms.php
+
+RewriteRule ^instructors?$ instructor.php
+
+RewriteRule ^students?$ student.php
+
+RewriteRule ^accounts?$ account.php
+
+RewriteRule ^attendances?$ attendance.php
+
+RewriteRule ^attendance-logs?$ attendance-logs.php
+
+RewriteRule ^settings?$ setting.php
+
+RewriteRule ^student-settings?$ student-setting.php
+
+RewriteRule ^student-profile?$ student-profile.php
