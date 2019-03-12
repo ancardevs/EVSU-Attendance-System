@@ -820,7 +820,7 @@ if (isset($_GET['registered'])) {
         <!--Google map-->
         <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
           <iframe width="600" height="450" frameborder="0" style="border:0"
-                  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJjZikQbnZBzMR15tLzADf1uw&key=AIzaSyBzbEQqpYoOun2BmEbms8hhO1HWWoCk8OY"
+                  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJjZikQbnZBzMR15tLzADf1uw&key="
                   allowfullscreen></iframe>
         </iframe>
       </div>
